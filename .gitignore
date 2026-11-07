@@ -1,0 +1,24 @@
+# Python environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets & environment
+.env
+.env.local
+
+# Model weights and checkpoints
+*.pt
+*.bin
+*.safetensors
+*.onnx
+checkpoints/
+models/*
+!models/.gitkeep
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
