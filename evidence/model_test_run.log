@@ -1,0 +1,19 @@
+============================================================
+Veaja AI - Sprint 1 Infrastructure Smoke Test (CPU Baseline)
+============================================================
+PyTorch Version: 2.15.0+cpu
+CUDA Available: False (Running on Host CPU)
+
+[1/3] Loading lightweight test model (Qwen/Qwen2.5-0.5B)...
+[✓] Model loaded in 274.73s
+
+[2/3] Executing inference with prompt: 'Veaja AI infrastructure test: System initialization status is'
+[✓] Inference finished in 2.10s
+
+[3/3] Inference Result:
+------------------------------------------------------------
+Veaja AI infrastructure test: System initialization status is normal, but the system is not running. The possible reasons could be ____.
+A. The system
+------------------------------------------------------------
+
+[SUCCESS] Baseline container and model pipeline verified.
