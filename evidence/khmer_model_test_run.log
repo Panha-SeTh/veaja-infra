@@ -1,0 +1,22 @@
+﻿=================================================================
+Veaja AI - Khmer Model Candidate Inference Test
+=================================================================
+Target Candidate : sail/Sailor2-1B-Chat
+PyTorch Version  : 2.15.0+cpu
+CUDA Available   : False
+
+[1/3] Loading model candidate 'sail/Sailor2-1B-Chat'...
+[✓] Model loaded in 23.91s
+
+[2/3] Executing inference with prompt:
+Prompt: សួស្តី Veaja AI! តើអ្នកអាចជួយអ្វីខ្ញុំបានខ្លះ?
+[✓] Inference finished in 36.62s
+
+[3/3] Inference Result:
+-----------------------------------------------------------------
+សួស្ដីទាំងអស់គ្នា! Vejaia មានពូជសាសន៍រឹងមាំដល់ការប្រើប្រាស់ AI ហើយចង់ជួយអ្នក!
+
+** 1. ការធ្វើវិញ (Recovery) **: ប្រសិនបើអ្នកមានភា�
+-----------------------------------------------------------------
+
+[SUCCESS] Khmer candidate model verified successfully.

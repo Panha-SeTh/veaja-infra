@@ -17,6 +17,11 @@ checkpoints/
 models/*
 !models/.gitkeep
 
+# Run logs & results (keep folder stubs, ignore generated run files)
+results/**/*.log
+results/**/*.json
+!results/**/.gitkeep
+
 # OS & IDE
 .DS_Store
 Thumbs.db
